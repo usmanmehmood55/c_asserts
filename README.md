@@ -68,19 +68,7 @@ int main(void)
 ```
 
 ### Output
-```bash
-[PASSED] main.c:42 passing_function_1    
-[PASSED] main.c:43 passing_function_2    
-Assertion failed at main.c:24:failing_function
-[FAILED] main.c:44 failing_function
-[PASSED] main.c:45 passing_function_3
-
------ Test Summary -----
- Total tests:  04
- Passed tests: 03
- Failed tests: 01
-------------------------
-```
+![image](https://github.com/usmanmehmood55/c_asserts/assets/27913231/e27cfae5-98d0-4891-ad24-5c1d04977f01)
 
 ### Assertions
 Use `ASSERT_TEST(condition)` to assert that a condition is true:
